@@ -2,7 +2,7 @@ import React from "react"
 import { Dropdown } from "react-bootstrap"
 import "./Settings.css"
 
-const Settings = () => {
+const Settings = ({ toggleMode }) => {
     return (
         <Dropdown className="settings">
             <Dropdown.Toggle variant="outline-secondary" id="dropdown-basic">
@@ -11,7 +11,7 @@ const Settings = () => {
 
             <Dropdown.Menu>
                 <Dropdown.Item href="#/action-1">Ночной режим</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">
+                <Dropdown.Item onClick={toggleMode}>
                     Режим тестировщика
                 </Dropdown.Item>
             </Dropdown.Menu>

@@ -11,6 +11,14 @@ header {
     margin-top: 10px;
 }
 
+.default {
+    background-color: rgb(135, 247, 135);
+}
+
+.test {
+    background-color: rgb(245, 242, 56);
+}
+
 .leftpart {
     display: flex;
     align-items: center;
