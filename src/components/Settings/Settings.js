@@ -5,13 +5,15 @@ import "./Settings.css"
 const Settings = () => {
     return (
         <Dropdown className="settings">
-            <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-                Settings
+            <Dropdown.Toggle variant="outline-secondary" id="dropdown-basic">
+                Настройки
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Dark mode</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Test mode</Dropdown.Item>
+                <Dropdown.Item href="#/action-1">Ночной режим</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">
+                    Режим тестировщика
+                </Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
     )

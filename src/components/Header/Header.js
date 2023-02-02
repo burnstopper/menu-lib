@@ -1,9 +1,9 @@
 import React from "react"
-import Account from "./Account/Account"
+import Account from "../Account/Account"
 import "./Header.css"
-import Logo from "./Logo/Logo"
-import Navigation from "./Navigation/Navigation"
-import Settings from "./Settings/Settings"
+import Logo from "../Logo/Logo"
+import Navigation from "../Navigation/Navigation"
+import Settings from "../Settings/Settings"
 
 const Header = () => {
     return (
