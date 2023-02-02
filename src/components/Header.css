@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    background-color: green;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    width: 99%;
+}
+
+.leftpart {
+    display: flex;
+    background-color: pink;
+    align-items: center;
+}
+
+.rightpart {
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+}
