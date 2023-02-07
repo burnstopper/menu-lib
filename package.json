@@ -1,8 +1,7 @@
 {
-    "name": "@burnstopper/menu-lib",
+    "name": "burnstopper-menu-lib-2",
     "version": "0.1.0",
     "author": "Aleksey Shulikov",
-    "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^13.0.0",
